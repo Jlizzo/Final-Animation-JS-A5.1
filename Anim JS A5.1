@@ -1,0 +1,18 @@
+//This function was updated and is supposed to be linked to Btn1 but its still broken :(
+function startAnimation() {
+    const start = document.getElementById("btn1").onclick = "#memeimage";
+    const img = document.querySelector("#memeimage");
+    btn1.addEventListener('click', startAnimation(start));
+    img.classList.add("start");
+}
+
+//This function was updated and is supposed to be linked to Btn2 but its still broken :(
+function stopAnimation() {
+    const stop = document.getElementById("btn2").onclick = "#memeimage";
+    const img = document.querySelector("#memeimage");
+    btn2.addEventListener('click', stopAnimation(stop));
+    img.classList.remove("start");
+}
+
+
+
